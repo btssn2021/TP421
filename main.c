@@ -1,14 +1,22 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 int main() {
-    int nblance,score=0;
+    int nblance=0,score=0,de1=0,de2=0,de3=0;
+    srand(time(NULL));
     printf("Saisir votre nombre de lancés");
     scanf("%d",&nblance);
     score=nblance*10;
     /*****************************lancés***************************/
-    while(score>=0&&nblance>=0) //attention operateur logique inversé
+    while(score>0&&nblance>0) //attention operateur logique inversé
     {
         //TO DO lancement des 3 dés
+        de1=rand()%6+1;
+        de2=rand()%6+1;
+        de3=rand()%6+1;
+        printf("\n%d %d %d",de1,de2,de3);
+        nblance--;
 
         //TO DO test 421
 
