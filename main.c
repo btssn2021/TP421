@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&nblance);
     score=nblance*10;
     /*****************************lancés***************************/
-    while(score>=0&&nblance>=0)
+    while(score>=0&&nblance>=0) //attention operateur logique inversé
     {
         //TO DO lancement des 3 dés
 
