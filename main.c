@@ -64,12 +64,10 @@ int main() {
                     case 3:
                         de2=0;
                         de3=0;
-                   
                         break;
                     case 4:
                         de1=0;
                         de3=0;
-                 
                         break;
                     case 5:
                         de1=0;
