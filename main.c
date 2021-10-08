@@ -60,7 +60,6 @@ int main() {
                     case 2:
                         de1=0;
                         de2=0;
-                      
                         break;
                     case 3:
                         de2=0;
@@ -74,15 +73,12 @@ int main() {
                         break;
                     case 5:
                         de1=0;
-                    
                         break;
                     case 6:
                         de2=0;
-                  
                         break;
                     case 7:
                         de3=0;
-                       
                         break;
 
                 }
