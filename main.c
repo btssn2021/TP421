@@ -20,6 +20,10 @@ int main() {
         nblance--;
 
         //TO DO test 421
+        if((de1+de2+de3==7)&&(de1==4||de2==4||de3==4))
+        {
+            printf("\nGagné");
+        }
 
         //TO DO relance des dés
 
