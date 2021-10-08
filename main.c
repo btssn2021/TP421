@@ -17,19 +17,19 @@ int main() {
     while (score > 0 && nblance > 0) //attention operateur logique inversé
    {
         printf("*************NOUVEAU LANCER*****************\n");
-
-        //TO DO lancement des 3 dés
-
+       relance:
+        /****************************lancement des 3 dés**************************************/
+            if(de1==0)
             de1 = rand() % 6 + 1;
-
+            if(de2==0)
             de2 = rand() % 6 + 1;
-
+            if(de3==0)
             de3 = rand() % 6 + 1;
 
         printf("\n%d %d %d", de1, de2, de3);
 
 
-        //TO DO test 421
+        /***************************test du 421************************************************/
         if ((de1 + de2 + de3 == 7) && (de1 == 4 || de2 == 4 || de3 == 4)) {
             printf("\nGagné");
         } else {
@@ -53,10 +53,15 @@ int main() {
                 switch (saisie) {
 
                     case 1:
-                        // TO DO
+                        de1=0;
+                        de2=0;
+                        de3=0;
+                        goto relance;
                         break;
                     case 2:
-                        // TO DO
+                        de1=0;
+                        de2=0;
+                        goto relance;
                         break;
                     case 3:
                         // TO DO
