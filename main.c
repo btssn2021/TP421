@@ -27,13 +27,16 @@ int main() {
             de3 = rand() % 6 + 1;
 
         printf("\n%d %d %d", de1, de2, de3);
+        printf("\nVotre score est de %d",score);
 
 
         /***************************test du 421************************************************/
         if ((de1 + de2 + de3 == 7) && (de1 == 4 || de2 == 4 || de3 == 4)) {
             printf("\nGagné");
+            score+=30;
         } else {
             printf("\nPerdu\n");
+            score-=10;
             /*****************************question relance du joueur*************************/
             if (cpt_relance < 2) {
                 printf("Souhaitez-vous relancer? O/N");
@@ -86,11 +89,11 @@ int main() {
                 }
 
 
-                //TO DO Gestion des scores
+
 
                 //TO DO Gestion de la fin de partie
             }
-            /*******************traitement du compteur_relance >=2********************/
+            /*******************Traitement du compteur_relance >=2********************/
             de1=0;
             de2=0;
             de3=0;
