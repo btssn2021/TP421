@@ -90,7 +90,7 @@ int main() {
 
                 //TO DO Gestion de la fin de partie
             }
-            /*****************traitement du compteur_relance >=2********************/
+            /*******************traitement du compteur_relance >=2********************/
             de1=0;
             de2=0;
             de3=0;
