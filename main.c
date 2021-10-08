@@ -84,7 +84,7 @@ int main() {
                     goto relance;
 
                 }
-                /****************traitement du compteur_relance >=2*******************/
+                /****************TO DO traitement du compteur_relance >=2*******************/
 
                 //TO DO Gestion des scores
 
