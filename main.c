@@ -37,6 +37,7 @@ int main() {
             /*****************************question relance du joueur*************************/
             printf("Souhaitez-vous relancer? O/N");
             scanf(" %c",&saisierelance);
+            /******************************relance*******************************************/
             if(saisierelance=='O')
             {
                 printf("**************RELANCE**************************\n");
