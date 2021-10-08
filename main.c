@@ -56,31 +56,37 @@ int main() {
                         de1=0;
                         de2=0;
                         de3=0;
-                        goto relance;
                         break;
                     case 2:
                         de1=0;
                         de2=0;
-                        goto relance;
+                      
                         break;
                     case 3:
-                        // TO DO
+                        de2=0;
+                        de3=0;
+                   
                         break;
                     case 4:
-                        // TO DO
+                        de1=0;
+                        de3=0;
+                 
                         break;
                     case 5:
-                        // TO DO
+                        de1=0;
+                    
                         break;
                     case 6:
-                        // TO DO
+                        de2=0;
+                  
                         break;
                     case 7:
-                        // TO DO
+                        de3=0;
+                       
                         break;
 
                 }
-
+                goto relance;
 
             }
             //TO DO Gestion des scores
