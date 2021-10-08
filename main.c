@@ -14,7 +14,7 @@ int main() {
 
     srand(time(NULL));
     lancer:
-    while (score > 0 && nblance > 0) //attention operateur logique inversé
+    while (score >= 0 && nblance > 0) //attention operateur logique inversé
    {
         printf("*************NOUVEAU LANCER*****************\n");
        relance:
@@ -88,9 +88,6 @@ int main() {
 
                 }
 
-
-
-
                 //TO DO Gestion de la fin de partie
             }
             /*******************Traitement du compteur_relance >=2********************/
@@ -102,5 +99,6 @@ int main() {
             goto lancer;
         }
     }
+    printf("Vous avez perdu!");
     return 0;
 }
